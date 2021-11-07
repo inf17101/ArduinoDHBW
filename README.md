@@ -16,3 +16,13 @@
 - ESP8266 (connected with the Arduino via UART) to display a website of the sensor values to wlan clients
 - 4 pin 5V fan
 
+### Concept development
+Flow chart part 1: Start query
+![Weather station development](./Presentation/images/Ablaufdiagramm2Start.jpg "Start query workflow")
+
+Flow chart part 2: DHT22
+![Weather station development](./Presentation/images/AD_TempFeucht.png "Workflow of DHT22")
+
+Flow chart part 3: Particulate matter sensor
+![Weather station development](./Presentation/images/AD_Feinstaub.png "Workflow of Particulate matter sensor")
+
