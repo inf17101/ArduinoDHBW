@@ -1,4 +1,4 @@
-# Aufbau & Implementierung einer Wetterstation mit Arduino
+# Construction & implementation of a weather station
 
 ### Idea of a weather station
 
