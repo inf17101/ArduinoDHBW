@@ -43,4 +43,23 @@ The following flowcharts describe the workflow, how the data is queried from sen
 #### Concept of data transfer
 ![Weather station development](./Presentation/images/AD_Workflow.png "Concept of data transfer")
 
+### Data integrity check between Arduino and ESP
 
+Implemented transmission security via CRC procedure:
+G (x) = x^16 + x^15 + x^10 + x^3
+- Arduino calculates CRC-16 (Xmodem) and sends Data + CRC
+- ESP also calculates CRC from data
+- ESP checks whether CRCs are the same
+
+### Occurring challenges
+- Connect ESP via UART ⇒ fine dust also sends
+via UART
+- All buttons of the LCD display are only activated via a pin A0
+had read
+- PWM signal for the fan
+- Data synchronization for LCD display, user website
+- Pin assignment due to the small number of pins
+
+### Additional Notes
+
+Please also see our German presentation inside the folder `Presentation` for more information.
