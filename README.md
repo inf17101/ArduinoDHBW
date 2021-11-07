@@ -35,10 +35,10 @@ Flow chart part 4: ESP
 Hardware structure
 
 General structure
-![Weather station development](./Presentation/images/TempLueftFeinstaub.PNG "Hardware structure")
+![Weather station development](./Presentation/images/TempLueftFeinstaub.png "Hardware structure")
 
 ESP operation
-![Weather station development](./Presentation/images/ESP_Betrieb.PNG "ESP operation")
+![Weather station development](./Presentation/images/ESP_Betrieb.png "ESP operation")
 
 Concept of data transfer
-![Weather station development](./Presentation/images/ESP_Betrieb.PNG "Concept of data transfer")
+![Weather station development](./Presentation/images/ESP_Betrieb.png "Concept of data transfer")
