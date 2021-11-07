@@ -21,7 +21,7 @@
 The following flowcharts describe the workflow, how the data is queried from sensors and how it is processed.
 
 #### Flow chart part 1: Start query
-![Weather station development](./Presentation/images/Ablaufdiagramm2Start.jpg "Start query workflow" | width=100px)
+![Weather station development](./Presentation/images/Ablaufdiagramm2Start.jpg "Start query workflow" | width=100)
 
 #### Flow chart part 2: DHT22
 ![Weather station development](./Presentation/images/AD_TempFeucht.PNG "Workflow of DHT22")
