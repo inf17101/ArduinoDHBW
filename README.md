@@ -20,25 +20,27 @@
 
 The following flowcharts describe the workflow, how the data is queried from sensors and how it is processed.
 
-Flow chart part 1: Start query
+#### Flow chart part 1: Start query
 ![Weather station development](./Presentation/images/Ablaufdiagramm2Start.jpg "Start query workflow")
 
-Flow chart part 2: DHT22
+#### Flow chart part 2: DHT22
 ![Weather station development](./Presentation/images/AD_TempFeucht.PNG "Workflow of DHT22")
 
-Flow chart part 3: Particulate matter sensor
+#### Flow chart part 3: Particulate matter sensor
 ![Weather station development](./Presentation/images/AD_Feinstaub.PNG "Workflow of Particulate matter sensor")
 
-Flow chart part 4: ESP
+#### Flow chart part 4: ESP
 ![Weather station development](./Presentation/images/AD_ESP_Ausgabe.PNG "Workflow of ESP")
 
-Hardware structure
+### Hardware structure
 
-General structure
+#### General structure
 ![Weather station development](./Presentation/images/TempLueftFeinstaub.png "Hardware structure")
 
-ESP operation
+#### ESP operation
 ![Weather station development](./Presentation/images/ESP_Betrieb.png "ESP operation")
 
-Concept of data transfer
-![Weather station development](./Presentation/images/ESP_Betrieb.png "Concept of data transfer")
+#### Concept of data transfer
+![Weather station development](./Presentation/images/AD_Workflow.png "Concept of data transfer")
+
+
