@@ -17,12 +17,28 @@
 - 4 pin 5V fan
 
 ### Concept development
+
+The following flowcharts describe the workflow, how the data is queried from sensors and how it is processed.
+
 Flow chart part 1: Start query
 ![Weather station development](./Presentation/images/Ablaufdiagramm2Start.jpg "Start query workflow")
 
 Flow chart part 2: DHT22
-![Weather station development](./Presentation/images/AD_TempFeucht.png "Workflow of DHT22")
+![Weather station development](./Presentation/images/AD_TempFeucht.PNG "Workflow of DHT22")
 
 Flow chart part 3: Particulate matter sensor
-![Weather station development](./Presentation/images/AD_Feinstaub.png "Workflow of Particulate matter sensor")
+![Weather station development](./Presentation/images/AD_Feinstaub.PNG "Workflow of Particulate matter sensor")
 
+Flow chart part 4: ESP
+![Weather station development](./Presentation/images/AD_ESP_Ausgabe.PNG "Workflow of ESP")
+
+Hardware structure
+
+General structure
+![Weather station development](./Presentation/images/TempLueftFeinstaub.PNG "Hardware structure")
+
+ESP operation
+![Weather station development](./Presentation/images/ESP_Betrieb.PNG "ESP operation")
+
+Concept of data transfer
+![Weather station development](./Presentation/images/ESP_Betrieb.PNG "Concept of data transfer")
